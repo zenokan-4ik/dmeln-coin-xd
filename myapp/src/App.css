@@ -1,0 +1,66 @@
+.coin{
+  height: 40%;
+  width: auto;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.coinDiv{
+
+}
+
+.App{
+
+}
+
+.balmult{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.multiplierShop{
+  position: absolute;
+  left: 1%;
+  top: 20%;
+}
+
+.smallCoin{
+  height: 3%;
+  width: 1.5%;
+  margin-left: 10px;
+}
+
+.product{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.product p{
+  width: auto;
+}
+
+.product{
+  height: auto;
+}
+
+.line{
+  width: 25%;
+  height: 1px;
+  background-color: black;
+}
+
+div{
+  height: 100%;
+  width: 100%;
+}
+
+p{
+  width: 100%;
+  font-size: 25px;
+}
