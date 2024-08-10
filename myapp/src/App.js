@@ -32,23 +32,23 @@ function App() {
         <p>Для покупки тыкните на Dmeln Coin</p>
         <div className='line' />
         <div className='product'>
-          <p>Доти доти (+1) - 50</p> <img src={coin} className='smallCoin' onClick={()=>{addMultiplier(1, 50)}}/>
+          <p>Доти доти (+1) - 50</p> <img src={coin} alt='dmelncoin' className='smallCoin' onClick={()=>{addMultiplier(1, 50)}}/>
         </div>
 
         <div className='product'>
-          <p>Пуджик через ПИПИ (+2) - 150</p> <img src={coin} className='smallCoin' onClick={()=>{addMultiplier(2, 150)}}/>
+          <p>Пуджик через ПИПИ (+2) - 150</p> <img src={coin} alt='dmelncoin' className='smallCoin' onClick={()=>{addMultiplier(2, 150)}}/>
         </div>
 
         <div className='product'>
-          <p>Инвайт на Deadlock чзх (+5) - 500</p> <img src={coin} className='smallCoin' onClick={()=>{addMultiplier(5, 500)}}/>
+          <p>Инвайт на Deadlock чзх (+5) - 500</p> <img src={coin} alt='dmelncoin' className='smallCoin' onClick={()=>{addMultiplier(5, 500)}}/>
         </div>
 
         <div className='product'>
-          <p>Апнул 200 ммр (+10) - 1500</p> <img src={coin} className='smallCoin' onClick={()=>{addMultiplier(10, 1500)}}/>
+          <p>Апнул 200 ммр (+10) - 1500</p> <img src={coin} alt='dmelncoin' className='smallCoin' onClick={()=>{addMultiplier(10, 1500)}}/>
         </div>
 
         <div className='product'>
-          <p>Город в кровище (+20) - 3000</p> <img src={coin} className='smallCoin' onClick={()=>{addMultiplier(20, 3000)}}/>
+          <p>Город в кровище (+20) - 3000</p> <img src={coin} alt='dmelncoin' className='smallCoin' onClick={()=>{addMultiplier(20, 3000)}}/>
         </div>
       </div>
       <div className='centerCoin'>
@@ -56,7 +56,7 @@ function App() {
           <p>Баланс: {balance}</p>
           <p>Тапаешь: {multiplier}</p>
         </div>
-        <img src={coin} className="coin" onClick={()=>{addBalance()}}/>
+        <img src={coin} alt='dmelncoin' className="coin" onClick={()=>{addBalance()}}/>
       </div>  
     </div>
   );
