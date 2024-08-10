@@ -1,5 +1,4 @@
 import coin from './coin.jpg'
-import sadCoin from './sad_coin.jpg'
 import './App.css';
 import { useState } from 'react';
 
@@ -7,7 +6,6 @@ function App() {
   const [balance, setBalance] = useState(0)
   const [multiplier, setMultiplier] = useState(1)
   const [success, setSuccess] = useState('')
-  const [isTapped, setIsTapped] = useState(false)
 
   const addBalance = () => {
     setBalance(balance+multiplier)
